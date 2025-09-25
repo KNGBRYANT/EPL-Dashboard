@@ -129,7 +129,8 @@ Visuals:
 ---
 
 ## 📌 Project Files   
-- Full dataset available on Kaggle: [link here]([https://www.kaggle.com/](https://www.kaggle.com/code/desalegngeb/english-premier-league-players-statistics))  
+- Full dataset available on Kaggle: [link here](https://www.kaggle.com/code/desalegngeb/english-premier-league-players-statistics)
+
 
 ---
 
