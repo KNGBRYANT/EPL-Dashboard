@@ -1,6 +1,6 @@
-# ⚽ EPL Player Statistics Dashboard (2015–2024)
+# ⚽ EPL Player Statistics Dashboard (2017–2024)
 
-An **interactive Power BI dashboard** analyzing Premier League player statistics across 9 seasons (2015/16 – 2023/24).  
+An **interactive Power BI dashboard** analyzing Premier League player statistics across 7 seasons (2017/18 – 2023/24).  
 
 The project demonstrates **data cleaning, transformation, and visualization** — all built from scratch using Kaggle datasets.  
 
@@ -10,7 +10,7 @@ The project demonstrates **data cleaning, transformation, and visualization** �
 The goal was to create a **comprehensive 2-page dashboard** that helps answer key football questions:
 
 - Which players contributed the most goals and assists?  
-- How were goals scored (left foot, right foot, headers, penalties, freekicks)?  
+- How were goals scored (left foot, right foot, headers)?  
 - Who were the top passers and chance creators?  
 - How do passing volume and assist creation relate?  
 - What trends can be spotted across different seasons?  
@@ -20,8 +20,8 @@ The dashboard includes **interactive filters** so users can drill down by season
 ---
 
 ## 📂 Dataset
-- **Source**: Kaggle – [Premier League Player Stats 2015–2024](https://www.kaggle.com/)  
-- **Seasons covered**: 2015/16 → 2023/24  
+- **Source**: Kaggle – [Premier League Player Stats 2015–2024]([https://www.kaggle.com/](https://www.kaggle.com/code/desalegngeb/english-premier-league-players-statistics))  
+- **Seasons covered**: 2017/18 → 2023/24  
 - **Data type**: Player-level stats (appearances, goals, assists, passes, tackles, fouls, etc.)  
 - **Format**: Multiple CSVs (one per season)  
 
@@ -67,7 +67,7 @@ Each season’s file had slightly different columns, so I had to carefully **ali
   - Passes → Green tones  
 
 - **Filters (Slicers)**:  
-  - Season (2015–2024)  
+  - Season (2017–2024)  
   - Player position  
   - Appearances  
   - Player search  
@@ -86,7 +86,7 @@ Visuals:
 - **Bar Chart**: Top players by goals  
 - **Bar Chart**: Top players by assists  
 - **Bar Chart**: Top players by passes  
-- **Pie Chart**: Goals by scoring method (left, right, head, penalties, freekicks)  
+- **Pie Chart**: Goals by scoring method (left, right, head)  
 - **Scatter Plot**: Passing volume vs assists created  
 
 ---
@@ -115,8 +115,8 @@ Visuals:
 ---
 
 ## 📷 Screenshots
-![Page 1](/assets/screenshots/page1.png)  
-![Page 2](/assets/screenshots/page2.png)  
+![Page 1](Dashboard/page1-summary.png)  
+![Page 2](Dashboard/page2-passing.png)  
 
 ---
 
@@ -128,10 +128,8 @@ Visuals:
 
 ---
 
-## 📌 Project Files
-- [`pbix/EPL_Dashboard.pbix`](./pbix/EPL_Dashboard.pbix) – full dashboard (if file size allows)  
-- [`data/sample_dataset.csv`](./data/sample_dataset.csv) – sample dataset  
-- Full dataset available on Kaggle: [link here](https://www.kaggle.com/)  
+## 📌 Project Files   
+- Full dataset available on Kaggle: [link here]([https://www.kaggle.com/](https://www.kaggle.com/code/desalegngeb/english-premier-league-players-statistics))  
 
 ---
 
